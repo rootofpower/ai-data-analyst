@@ -1,0 +1,32 @@
+{
+  "sales": {
+    "description": "Retail sales records containing transaction details, customer information, and revenue by department.",
+    "columns": {
+      "Transaction ID": "Unique identifier for each sale.",
+      "Date": "Date of the purchase.",
+      "Customer Name": "Full name of the buyer. Watch out for auto-generated test data (e.g., 'Customer_123').",
+      "Customer Email": "Buyer's contact email. Blank or invalid formats are data quality issues.",
+      "Amount": "Total revenue from the sale. Must be a positive number; negative values are anomalies.",
+      "Department": "Product category (e.g., 'Home', 'Health', 'Sports')."
+    }
+  },
+  "accrual_accounts": {
+    "description": "Financial accounting records showing pending, back-posted, or cleared accrual transactions.",
+    "columns": {
+      "Unnamed: 0": "Data export artifact (row index). IGNORE this column in all analyses.",
+      "Authorization Group": "Security or department code for the transaction.",
+      "Bus. Transac. Type": "The specific category of the business transaction.",
+      "Calculate Tax": "Indicator if tax calculation was applied.",
+      "Cash Flow-Relevant Doc.": "Flag showing if this transaction impacts the company's cash flow.",
+      "Cleared Item": "Status indicating if the accounting balance has been settled/reconciled.",
+      "Clearing Date": "The date when the transaction was officially settled.",
+      "Country Key": "Geographic code for the transaction origin.",
+      "Currency": "The currency of the transaction (e.g., USD, EUR).",
+      "Debit/Credit ind": "Indicator showing if the transaction is a Debit (D) or Credit (C).",
+      "Transaction Value": "The monetary amount of the transaction. Note: Negative values typically represent debits, refunds, or reversals, which is normal in accounting but should be highlighted.",
+      "Document Is Back-Posted": "Flag indicating if the document was posted retroactively into a closed period.",
+      "Exchange rate": "Currency exchange rate applied, if not in the base currency.",
+      "Fiscal Year.1": "Primary financial year for this accounting record."
+    }
+  }
+}
