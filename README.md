@@ -5,7 +5,7 @@
 [4. How my approach evolved](#4-how-my-approach-evolved)
 
 ## 1. How to run
-1. Clone the repository and open project dir.
+1. Clone the repository and open project directory.
 2. Create python virtual environment and activate it: 
     ```bash
     #win
@@ -20,11 +20,11 @@
     ```bash
     pip install -r requirements.txt
     ```
-4. Setup env variables:
+4. Setup environment variables:
    - create .env
    - enter your OpenAI API key (in this step it works only with **gpt-4o-mini**)
-   - enter your db url (in this step project works with **sqlite**)
-5. Init db(excel table must be in work dir):
+   - enter your database url (in this step project works with **sqlite**)
+5. Init database(excel table must be in working directory):
     ```bash
     #win
     python init_db.py
@@ -37,7 +37,7 @@
     streamlit run app.py
    ```
 ## 2. What I built and why
-I have created a service, which allows non-technical users to do text-to-sql requests 
+I have created a service, which allows non-technical users to do **text-to-sql** requests 
 with the help of an AI agent.
 ![interface.png](assets/interface.png)
 Here is pretty simple web interface, through which we can make our requests in chat form.
