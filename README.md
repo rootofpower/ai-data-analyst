@@ -1,4 +1,6 @@
 # ai-data-analyst
+[video walkthrough](https://youtu.be/4Hol6ctwp8E)
+
 [1. How to run](#1-how-to-run)  
 [2. What I built and why](#2-what-i-built-and-why)  
 [3. What I chose not to do](#3-what-i-chose-not-to-do)  
@@ -80,3 +82,4 @@ So, I decided to change direction, and again go to LLM, describe my problem, res
 get helpful advice, to make it not with big prompt, but with Semantic Layer.
 I ask to create `metadata.json` and implemented new solution, also in new version I added some context memory for
 better responses.
+
