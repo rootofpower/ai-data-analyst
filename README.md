@@ -70,6 +70,9 @@ visualize data, in cause of complexity and limitations of used model
 
 If I had more time, the next thing I would add is data visualization, cause it is 
 important thing in data analysis, but first is actually to change model from mini :)
+
+
+
 UPD. (AFTER DEADLINE) 
 
 Also, i might make more tests, and make some statistics from test results, to make it pretty 
